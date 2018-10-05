@@ -1,0 +1,22 @@
+/**
+ *
+ * Andrew Behncke
+ *
+ * Review Problems from chapter 8
+ *
+ */
+
+8.1
+Encapsulation is grouping data together. It is useful because it makes manipulating and using data very simple and easy
+
+8.3
+A menu with 2 different options. "Ok" and "Cancel".
+
+8.8
+Getter and setter. They are used in classes to change the private variables and get the values of them. This is to keep the variables themselves private.
+
+8.9
+Explicit parameters use the 'this' keyword before it so you are telling it to use the instance variable and not the parameter, whereas implicit is when you leave it (this) off.
+
+8.11
+A constructor is a method in a class which is called when you need to create an object of that class. It is used to set all of the instance variables to their initial states.

@@ -1,0 +1,45 @@
+5.2
+a. public int(int x, int y)
+b. public float(float x, float y, float z)
+c. public boolean isPrime(int x)
+d. public boolean contains(String x, String y)
+e. public double balance(double initial, double interest, int years)
+f. public void printBalance(double initial, double interest, int years)
+g. public void printCalendar(int month, int year)
+h. public String getDay(int year, int month, int day)
+i. public int nextInt(int n)
+
+5.6.2
+It can have as many arguments as the hardware can handle, and it can only have one return value.
+
+5.8
+input = "1-800-example"
+output = ""
+for each char 'curChar' in input
+	output += evalChar(curChar)
+
+function evalChar(char c)
+	if char is a, b, or c
+		return 2
+	if char is d, e, or f
+		return 3
+	if char is g, h, or i
+		return 4
+	if char is j, k, or l
+		return 5
+	if char is m, n, or o
+		return 6
+	if char is p, q, r, or s
+		return 7
+	if char is t, u, or v
+		return 8
+	if char is w, x, y, or z
+		return 9
+	return c
+
+
+// not exactly sure how the numbers are displayed on the phone, but this would be the general idea.
+
+5.10
+The main method has 2 variables in its scope, int i and int b. The f method has int n, and and in i passed in as a parameter. The g method has an integer b, a for loop with n as an interator. That for loop also has a local variable int I in it. It also has a parameter of int a.
+	When the program is run, it prints out 25.

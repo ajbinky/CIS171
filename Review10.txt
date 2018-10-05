@@ -1,0 +1,12 @@
+/*
+ * @author Andrew Behncke
+ */
+ 
+ 10.1
+ A frame is like the window that everything is put in, and a panel is a component that is added to the frame. Panels can hold other components.
+ 
+ 10.4
+ It only shows the component that was added last in the code.
+ 
+ 10.6
+ It is called by the actionPerformed method, and that occurs when the component that it is attached to is activated, like a button being clicked.

@@ -1,0 +1,31 @@
+/*
+ * @author Andrew Behncke
+ */
+
+	Arrays
+int[] x = new int[500];
+int[] x = {5, 10, 15};
+sysout(x[10]); //prints 10th element
+for (int i : x) {sysout(x[i]);}
+int[][] array2d = new int[10][10];
+
+	ArrayLists
+ArrayList<String> al = new ArrayList<>();
+al.add("Hello World!");
+
+	Objects
+encapsulate data
+constructor, instance variables, methods
+
+	super/subclass
+subclass inherits from superclass
+can always use subclass in place of superclass
+public class dog extends animal
+abstract can't be instantiated
+
+	GUI
+Frame is the window
+add panel to window
+add components to panel
+???
+profit

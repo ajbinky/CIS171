@@ -1,0 +1,20 @@
+/*
+ * @author Andrew Behncke
+ */
+ 
+9.1
+a. Superclass: Employee		Subclass: Manager
+b. Superclass: Student		Subclass: GraduateStudent
+c. Superclass: Person		Subclass: Student
+d. Superclass: Employee		Subclass: Professor
+e. Superclass: BankAccount	Subclass: CheckingAccount
+f. Superclass: Vehicle		Subclass: Car
+g. Superclass: Vehicle		Subclass: Minivan
+h. Superclass: Car		Subclass: Minivan
+i. Superclass: Vehicle		Subclass: Truck
+
+9.3
+It inherits setText, setAnswer, checkAnswer, and display. It overrides the display method. It adds addChoice.
+
+9.6
+a and d are legal.

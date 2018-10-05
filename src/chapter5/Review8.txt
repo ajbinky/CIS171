@@ -1,0 +1,26 @@
+input = "1-800-example"
+output = ""
+for each char 'curChar' in input
+	output += evalChar(curChar)
+
+function evalChar(char c)
+	if char is a, b, or c
+		return 2
+	if char is d, e, or f
+		return 3
+	if char is g, h, or i
+		return 4
+	if char is j, k, or l
+		return 5
+	if char is m, n, or o
+		return 6
+	if char is p, q, r, or s
+		return 7
+	if char is t, u, or v
+		return 8
+	if char is w, x, y, or z
+		return 9
+	return c
+
+
+// not exactly sure how the numbers are displayed on the phone, but this would be the general idea.
